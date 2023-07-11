@@ -17,12 +17,20 @@ header{
     grid-template-columns: 1fr 50px;
     margin-top: 50px;
 }
+#banner{
+    width: 100px;
+    border-radius: 50px;
+    
+   
+    
+    
+}
 header .shopping{
     position: relative;
     text-align: right;
 }
 header .shopping img{
-    width: 40px;
+    width: 50px;
 }
 header .shopping span{
     background: rgb(255, 0, 0);
@@ -131,4 +139,9 @@ header .shopping span{
 }
 .listCard .count{
     margin: 0 10px;
+}
+.tentang{
+    padding: 4rem;
+    justify-content: center;
+    text-align: center;
 }
